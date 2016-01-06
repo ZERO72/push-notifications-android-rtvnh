@@ -1,6 +1,6 @@
 package com.plugin.gcm;
 
-import nl.peperzaken.rtvnoordholland.R;
+import android.R;
 
 import com.google.android.gcm.GCMBaseIntentService;
 
@@ -13,7 +13,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.NotificationCompat;
 import android.util.Log;
-import android.R;
+
 
 @SuppressLint("NewApi")
 public class GCMIntentService extends GCMBaseIntentService {
@@ -81,7 +81,7 @@ public class GCMIntentService extends GCMBaseIntentService {
         NotificationCompat.Builder mBuilder =
                 new NotificationCompat.Builder(context)
                         .setDefaults(defaults)
-                        .setSmallIcon(android.R.drawable.icon)
+                        .setSmallIcon(android.R.drawable.noticon)
                         .setWhen(System.currentTimeMillis())
                         .setContentTitle(extras.getString("title"))
                         .setTicker(extras.getString("title"))

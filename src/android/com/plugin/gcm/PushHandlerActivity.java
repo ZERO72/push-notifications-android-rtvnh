@@ -1,6 +1,6 @@
 package com.plugin.gcm;
 
-import nl.peperzaken.rtvnoordholland.R;
+import android.R;
 
 import com.appgyver.cordova.AGCordovaApplicationInterface;
 
