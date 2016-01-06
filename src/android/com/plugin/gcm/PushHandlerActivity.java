@@ -1,5 +1,7 @@
 package com.plugin.gcm;
 
+import nl.peperzaken.rtvnoordholland.R;
+
 import com.appgyver.cordova.AGCordovaApplicationInterface;
 
 import android.app.NotificationManager;

@@ -1,6 +1,7 @@
 package com.plugin.gcm;
 
 import nl.peperzaken.rtvnoordholland.R;
+
 import com.google.android.gcm.GCMBaseIntentService;
 
 import android.annotation.SuppressLint;

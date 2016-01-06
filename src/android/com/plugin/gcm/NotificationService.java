@@ -1,5 +1,7 @@
 package com.plugin.gcm;
 
+import nl.peperzaken.rtvnoordholland.R;
+
 import android.app.NotificationManager;
 
 import com.google.android.gcm.GCMRegistrar;

@@ -1,5 +1,7 @@
 package com.plugin.gcm;
 
+import nl.peperzaken.rtvnoordholland.R;
+
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaInterface;
 import org.apache.cordova.CordovaPlugin;
