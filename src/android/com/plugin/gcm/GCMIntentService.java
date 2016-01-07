@@ -1,5 +1,7 @@
 package com.plugin.gcm;
 
+import com.plugin.gcm.PushPlugin.R;
+
 import com.google.android.gcm.GCMBaseIntentService;
 
 import android.annotation.SuppressLint;
@@ -79,7 +81,7 @@ public class GCMIntentService extends GCMBaseIntentService {
         NotificationCompat.Builder mBuilder =
                 new NotificationCompat.Builder(context)
                         .setDefaults(defaults)
-                        // .setSmallIcon(android.R.drawable.noticon)
+                        .setSmallIcon(R.drawable.noticon)
                         .setWhen(System.currentTimeMillis())
                         .setContentTitle(extras.getString("title"))
                         .setTicker(extras.getString("title"))
