@@ -1,6 +1,6 @@
 package com.plugin.gcm;
 
-import com.plugin.gcm.PushPlugin.R;
+import com.appgyver.cordova.R;
 
 import com.google.android.gcm.GCMBaseIntentService;
 
