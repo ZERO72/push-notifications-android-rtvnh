@@ -1,7 +1,5 @@
 package com.plugin.gcm;
 
-import nl.rtvnoordholland.android.R;
-
 import android.content.Context;
 
 import com.google.android.gcm.GCMBroadcastReceiver;

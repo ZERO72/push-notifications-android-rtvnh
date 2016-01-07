@@ -1,7 +1,5 @@
 package com.plugin.gcm;
 
-import nl.rtvnoordholland.android.R;
-
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaInterface;
 import org.apache.cordova.CordovaPlugin;

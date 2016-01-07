@@ -1,7 +1,5 @@
 package com.plugin.gcm;
 
-import nl.rtvnoordholland.android.R;
-
 import android.app.NotificationManager;
 
 import com.google.android.gcm.GCMRegistrar;
